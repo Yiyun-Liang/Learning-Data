@@ -12,6 +12,5 @@ def mapper():
             date, time, store, item, cost, payment = data
             print "{0}\t{1}".format(store, cost)
 
-
-def main():
+if __name__ == "__main__":
     mapper()
