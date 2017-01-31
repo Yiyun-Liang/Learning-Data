@@ -10,7 +10,7 @@ def mapper():
         # or lines with weird format
         if len(data) == 6:
             date, time, store, item, cost, payment = data
-            print "{0}\t{1}".format(store, cost)
+            print "{0}\t{1}".format(item, cost)
 
 if __name__ == "__main__":
     mapper()
