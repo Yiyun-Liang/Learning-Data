@@ -1,6 +1,11 @@
 # Learning-Data
 
 # Useful Commands
+To start and stop node cluster.
+```
+hstart, hstop
+```
+
 ```
 hadoop fs -ls
 hadoop fs -put <filename>
