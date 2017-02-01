@@ -1,5 +1,6 @@
 # Learning-Data
 
+
 # Useful Commands
 To start and stop node cluster.
 ```
@@ -36,6 +37,7 @@ myinput -output joboutput
 > and hadoop will only output to directories that do not exists
 > http://localhost:50030/ when cluster is running
 
+
 # Random
 ```
 hadoop jar
@@ -43,7 +45,7 @@ hadoop jar
 -info
 ```
 Some additional information that are extremely useful yet missing:
-> -Dmapreduce.job.maps=10 
+> -Dmapreduce.job.maps=10
 > -Dmapreduce.job.reduces=10  
-> -Dmapreduce.map.java.opts=-Xmx12000M 
-> -Dmapreduce.reduce.java.opts=-Xmx12000M 
+> -Dmapreduce.map.java.opts=-Xmx12000M
+> -Dmapreduce.reduce.java.opts=-Xmx12000M
