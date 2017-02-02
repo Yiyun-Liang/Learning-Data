@@ -18,8 +18,17 @@ Eg. word/record count, mean, median, standard deviation
 + [Mean Mapper - is there any correlation between the day of the week and how much people spent on items](https://github.com/Yiyun-Liang/Learning-Data/blob/master/totalSales/meanMapper.py)
 + [Mean Reducer - is there any correlation between the day of the week and how much people spent on items](https://github.com/Yiyun-Liang/Learning-Data/blob/master/totalSales/meanReducer.py)
 
-
+-> Use of combiners (like semi-reducers in MapReduce)
+```
+gedit ~/.bashrc
+```
 
 ### Structural Patterns
-Eg. combining data sets
-[]()
+Eg. combining data sets, RDBMS to Hadoop (take advantage of hierarchical data)
+
+1) Data sources linked by foreign keys
+
+2) Data must be structured and row based
+
++ [Combine Dataset Mapper - what is the reputation of a post's author](https://github.com/Yiyun-Liang/Learning-Data/blob/master/forumData/combineMapper.py)
++ [Combine Dataset Reducer - what is the reputation of a post's author](https://github.com/Yiyun-Liang/Learning-Data/blob/master/forumData/combineReducer.py)
